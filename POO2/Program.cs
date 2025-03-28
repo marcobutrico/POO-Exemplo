@@ -134,8 +134,28 @@ using POO;
 // private - 1. esconder regras para alteracao ou listagem
 // protected / internal - so pode ser acesso por ele mesmo e sua classe pai
 
-using POO2;
+//using POO2;
 
-Carro carro1 = new Carro();
-carro1.SetModelo("Fusca");
+//Carro carro1 = new Carro();
+//carro1.SetModelo("Fusca");
+
+//using POO2;
+
+//ContaBancaria account1 = new ContaBancaria();
+//account1.Depositar(150);
+//account1.VerSaldo(); 
+//account1.Sacar(100);
+//account1.VerSaldo();
+
+
+//using POO2;
+//Funcionario employee1 = new Funcionario();
+//employee1.SetSalario(1500);
+//Console.WriteLine("O salario deste coladorador e R$ " + employee1.GetSalario());
+
+using POO2;
+Retangulo rect1 = new Retangulo(); 
+rect1.SetLargura(10);
+rect1.SetAltura(5);
+rect1.CalcularArea();
 

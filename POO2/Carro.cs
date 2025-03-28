@@ -30,7 +30,7 @@ namespace POO
         }
         public void MostrarInformacoes()
         {
-            Console.WriteLine($"Marca: {marca}, Modelo: {modelo}, Ano de Fabricacao {anoFabricacao}");
+            Console.WriteLine($"Marca: {marca}, Modelo: {_modelo}, Ano de Fabricacao {anoFabricacao}");
         }
 
         public string GetModelo()
@@ -42,7 +42,7 @@ namespace POO
         {
             if (mod == "Fiesta" || mod == "HB20")
             {
-                modelo = mod;
+                _modelo = mod;
             }
             else
             {
