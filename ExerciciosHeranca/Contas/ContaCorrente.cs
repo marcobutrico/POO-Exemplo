@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosHeranca
+namespace ExerciciosHeranca.Contas
 {
     class ContaCorrente : ContaBancaria    //ContaCorrente herda de ContaBancaria
-        {
-     public double CobrarTaxa()
     {
-        _saldo -= 10;
-        return _saldo;
-    }
+        public void CobrarTaxa()
+        {
+            _saldo -= 10;
+        }
     }
 
 }

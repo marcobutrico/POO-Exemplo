@@ -157,5 +157,5 @@ using POO2;
 Retangulo rect1 = new Retangulo(); 
 rect1.SetLargura(10);
 rect1.SetAltura(5);
-rect1.CalcularArea();
+rect1.CalcularArea(); 
 

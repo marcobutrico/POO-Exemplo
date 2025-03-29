@@ -5,15 +5,22 @@
 //Crie instâncias de ambas as classes, faça depósitos e utilize seus métodos específicos.
 
 using ExerciciosHeranca;
+using ExerciciosHeranca.Contas;
 
-ContaPoupanca poupeBem = new ContaPoupanca();
-poupeBem.Depositar(1000);
-poupeBem.VerSaldo();
-poupeBem.RenderJuros();
+//ContaCorrente correnteBem = new ContaCorrente();
+//correnteBem.VerSaldo(); 
+//correnteBem.Depositar(1000);
+//correnteBem.VerSaldo();
+//correnteBem.CobrarTaxa();
+//correnteBem.VerSaldo();
 
+//ContaPoupanca poupeBem = new ContaPoupanca();
+//poupeBem.Depositar(1000);
+//poupeBem.VerSaldo();
+//poupeBem.RenderJuros();
+//poupeBem.VerSaldo();
 
-ContaCorrente correnteBem = new ContaCorrente();
-correnteBem.Depositar(1000);
-correnteBem.VerSaldo();
-correnteBem.RenderJuros();
-correnteBem.VerSaldo();
+Gerente manager = new Gerente();
+manager.SetSalario(1500);
+manager.Bonificar();
+Console.WriteLine($"{manager.GetSalario():F2}");

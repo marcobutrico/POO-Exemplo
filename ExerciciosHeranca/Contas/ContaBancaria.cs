@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosHeranca
+namespace ExerciciosHeranca.Contas
 {
     class ContaBancaria
     {
         //Atributos
-        private double _saldo = 0;
+        protected double _saldo = 0;
 
         public void Depositar(double valor)
         {
@@ -25,5 +25,6 @@ namespace ExerciciosHeranca
         {
             Console.WriteLine($"Saldo: R$ {_saldo}");
         }
+
     }
 }
