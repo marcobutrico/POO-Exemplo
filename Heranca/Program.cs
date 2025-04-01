@@ -55,25 +55,25 @@ using Heranca;
 //else
 //{
 //    pessoa = new PessoaJuridica();
-//}
+////}
 
 
-Carro carro1 = new Carro();
-CarroEletrico carroE = new CarroEletrico();
+//Carro carro1 = new Carro();
+//CarroEletrico carroE = new CarroEletrico();
 
-carro1.modelo = "Fusca";
-carro1.marca = "Volkswagen";
-carro1.quilometragem = 3000;
+//carro1.modelo = "Fusca";
+//carro1.marca = "Volkswagen";
+//carro1.quilometragem = 3000;
 
-carroE.modelo = "Tesla Model S";
-carroE.marca = "Tesla";
-carroE.quilometragem = 1000;
-carroE.bateria = 200;
-carroE.tempoDeCarga = 50;
+//carroE.modelo = "Tesla Model S";
+//carroE.marca = "Tesla";
+//carroE.quilometragem = 1000;
+//carroE.bateria = 200;
+//carroE.tempoDeCarga = 50;
 
-//carro1.MostrarInformacoes();
-//carroE.MostrarInformacoes();
-carroE.MostrarInformacoes("Fusca");
+////carro1.MostrarInformacoes();
+////carroE.MostrarInformacoes();
+//carroE.MostrarInformacoes("Fusca");
 
 
 //Encapsulamento e Heranca
@@ -81,3 +81,4 @@ carroE.MostrarInformacoes("Fusca");
 
 //Polimorfismo  depende da Heranca
 // (Um metodo com o mesmo nome) pode ter implementacao variavel
+
